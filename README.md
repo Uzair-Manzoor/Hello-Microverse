@@ -23,48 +23,33 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
+  - [Run Linters](#run-linters)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Hello Microverse <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is my first project with Microverse using Githib professiona flow
 
-**[your_project__name]** is a...
+**Hello Microverse**
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+   <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
@@ -72,11 +57,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Add the linter for the project to fix the errors and clean the codeok_hand
+- User-friendly Interface: Simple and intuitive interface for a seamless user experience.rocket
+- Style the text using the CSS 100
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,9 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link]([https://google.com](https://Uzair-Manzoor.github.io/Hello-Microverse))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,83 +75,50 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+**1. Prerequisites**
 
 In order to run this project you need:
 
-<!--
-Example command:
+- Visual Studio
+- Github
+- git
 
-```sh
- gem install rails
-```
- -->
-
-### Setup
+**2. Setup**
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+git clone https://github.com/Uzair-Manzoor/Hello-Microverse.git
 
-### Install
+**3. Install** <a name="install"></a>
 
-Install this project with:
+- please first install the node package files
+   - npm install
 
-<!--
-Example command:
+**4. Usage**<a name="usage"></a>
+ 
+ - In order to use this project you create branch to add more feature.
+  - But in order to run the project use below commands. 
+    - npm run build (It will create a production ready file)
+    - npm start (It will run the server on your machine)
 
-```sh
-  cd my-project
-  gem install
-```
---->
+**5. Run Linters** <a name="run-linters"></a>
+ 
+I have added linters or tests in order to avoid typos and ensure good practice in this project.So while using this repository if you need to check your work no matters have worked on html, css and js you can use below commands
+- In order to run the linter test on `index.html` or any html file. use below command
 
-### Usage
+  `npx hint` .
 
-To run the project, execute the following command:
+- To run linter test on stylesheets. Use below command
 
-<!--
-Example command:
+  `npx stylelint "**/*.{css,scss}"`
 
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+**6. Deployment** <a name="deployment"></a>
+ 
+ You can deploy your project using `github` free source.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,19 +126,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Uzair-Manzoor**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Uzair-Manzoor)
+- Twitter: [@twitterhandle](https://twitter.com/UzairKiyani5555)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/uzair-manzoor-b69996115/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,11 +138,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[add more interactive buttons and sections]**
+- [ ] **[style it beautifully]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,9 +157,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please don't hesitate to support me with your valued contribution and don't forget to star the repo to reach more people.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,12 +165,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+I would like to thank Microverse for their unique way of teach me how to code, and also Freecodecamp and w3school for their practical articles that helped me to make this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,8 +173,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/Uzair-Manzoor/Hello-Microverse/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
